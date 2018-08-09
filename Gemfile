@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.1'
+gem 'mailjet'
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'stripe'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
